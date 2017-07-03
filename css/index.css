@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    background-color: #000;
+    margin: 0;
+}
+
+section{
+    width: 1350px;
+}
+
+.center{
+    text-align: center;
+    -webkit-box-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.margin-top10{
+    margin-top: 10px;
+}
+
+.poder{
+    background-color: #000;
+    font-family: 'Archivo Black', sans-serif;
+    color: #000;
+    text-shadow: 2px 2px 15px #990300,
+                -2px -2px 15px #990300,
+                -2px 2px 15px #990300,
+                2px -2px 15px #990300;
+}
+
+li{
+    display: inline;
+}
+
+#btn-random {
+    font-family: 'Archivo Black', sans-serif;
+    background-color: #000;
+    color: #000;
+    border-radius: 10px;
+    width: 30%;
+    height: 50px;
+    font-size: 25px;
+    border: 0px solid;
+    box-shadow: inset 6px 6px 10px #990300,
+                inset -6px -6px 10px#990300;
+    text-shadow: 2px 2px 4px #990300,
+                -2px -2px 4px #990300;
+}
+
+#btn-random:hover {
+    background-color: #000;
+    color: #101010;
+    border: -2px solid #000;
+    transition: 0.5s;
+}
+
+#dtb{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 63px;
+    color: #000;
+    letter-spacing: 3px;
+    background-color: #000;
+    border-radius: 5px;
+    max-width: 700px;
+    margin: 1% auto;
+    -webkit-animation: color_change 10s infinite alternate;
+	-moz-animation: color_change 10s infinite alternate;
+	-ms-animation: color_change 10s infinite alternate;
+	-o-animation: color_change 10s infinite alternate;
+	animation: color_change 10s infinite alternate;
+    text-shadow: 2px 2px 15px #990300,
+                -2px -2px 15px #990300,
+                -2px 2px 15px #990300,
+                2px -2px 15px #990300;
+}
+
+@keyframes color_change {
+	0% { text-shadow: 2px 2px 15px #ff0000,
+                     -2px -2px 15 px #ff0000,
+                     -2px 2px 15px #ff0000,
+                     2px -2px 15px #ff0000
+                     ; }
+	10% { text-shadow: 2px 2px 15px#ff6600,
+                    -2px -2px 15px#ff6600,
+                    -2px 2px 15px#ff6600,
+                    2px -2px 15px#ff6600
+                     ; }
+	20% { text-shadow: 2px 2px 15px #ffe900,
+                    -2px -2px 15px #ffe900,
+                    -2px 2px 15px #ffe900,
+                    2px -2px 15px #ffe900
+                    ; }
+	30% {text-shadow: 2px 2px 15px #96F800,
+                    -2px -2px 15px #96F800,
+                    -2px 2px 15px #96F800,
+                    2px -2px 15px #96F800
+                    ; }
+	40% { text-shadow: 2px 2px 15px #17EF00,
+                    -2px -2px 15px #17EF00,
+                    -2px 2px 15px #17EF00,
+                    2px -2px 15px #17EF00
+                    ; }
+	50% { text-shadow: 2px 2px 15px #0096DE,
+                    -2px -2px 15px #0096DE,
+                    -2px 2px 15px #0096DE,
+                    2px -2px 15px #0096DE
+                    ; }
+	60% { text-shadow: 2px 2px 15px #0028E2,
+                    -2px -2px 15px #0028E2,
+                    -2px 2px 15px #0028E2,
+                    2px -2px 15px #0028E2,
+                    ; }
+	70% { text-shadow: 2px 2px 15px #6A00E2,
+                    -2px -2px 15px #6A00E2,
+                    -2px 2px 15px #6A00E2,
+                    2px -2px 15px #6A00E2
+                    ; }
+	80% { text-shadow: 2px 2px 15px #A400A4,
+                    -2px -2px 15px #A400A4,
+                    -2px 2px 15px #A400A4,
+                    2px -2px 15px #A400A4
+                    ; }
+	90% { text-shadow: 2px 2px 15px #C00029,
+                    -2px -2px 15px #C00029,
+                    -2px 2px 15px #C00029,
+                    2px -2px 15px #C00029
+                    ; }
+	100% { text-shadow: 2px 2px 15px #ff0000,
+                     -2px -2px 15 px #ff0000,
+                     -2px 2px 15px #ff0000,
+                     2px -2px 15px #ff0000
+                     ; }
+}
